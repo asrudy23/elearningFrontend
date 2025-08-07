@@ -5,46 +5,272 @@
 
 /* Définition des variables et styles de base */
 :root {
-    --dark-blue: #0A1F44;
-    --orange: #F18A00;
-    --white: #FFFFFF;
-     --epg-blue: #2094f3;
-    --epg-orange: #f97316;
-    --epg-dark: #0d151c;
-    --epg-light-gray: #f8fafc;
-    --epg-gray: #e7eef4;
-    --epg-text-gray: #64748b;
-     --brand-dark-blue: #0A1F44;
-    --brand-orange: #F97316;
-    --background-light: #F8F9FB;
-    --text-primary: #111827;
-    --text-secondary: #6B7280;
-    --border-color: #D1D5DB;
+  --dark-blue: #0a1f44;
+  --orange: #f18a00;
+  --white: #ffffff;
+  --epg-blue: #2094f3;
+  --epg-orange: #f97316;
+  --epg-dark: #0d151c;
+  --epg-light-gray: #f8fafc;
+  --epg-gray: #e7eef4;
+  --epg-text-gray: #64748b;
+  --brand-dark-blue: #0a1f44;
+  --brand-orange: #f97316;
+  --background-light: #f8f9fb;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --border-color: #d1d5db;
+  --brand-primary: #0a1c47;
+  --brand-secondary: #e8ebf3;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --surface-primary: #ffffff;
+  --surface-secondary: #f8f9fb;
+  --border-color: #e5e7eb;
+  --brand-primary: #0a1c47;
+  --brand-secondary: #e8ebf3;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --surface-primary: #ffffff;
+  --surface-secondary: #f8f9fb;
+  --border-color: #e5e7eb;
+  --primary-50: #eff1f5;
+  --primary-100: #dce0e9;
+  --primary-200: #c1c8d8;
+  --primary-300: #a5b0c8;
+  --primary-400: #8a98b7;
+  --primary-500: #7a89a8;
+  --primary-600: #657393;
+  --primary-700: #55617c;
+  --primary-800: #495368;
+  --primary-900: #3f4756;
+  --primary-950: #292d36;
+  --secondary: #b5bbc9;
+  --neutral-50: #f8f9fa;
+  --neutral-100: #f1f3f5;
+  --neutral-200: #e9ecef;
+  --neutral-300: #dee2e6;
+  --neutral-400: #ced4da;
+  --neutral-500: #adb5bd;
+  --neutral-600: #868e96;
+  --neutral-700: #495057;
+  --neutral-800: #343a40;
+  --neutral-900: #212529;
+  --neutral-950: #141618;
+  --primary-color: #0a1c47;
+  --secondary-color: #e8ebf3;
+  --text-primary: #0e121b;
+  --text-secondary: #506595;
+  --background-color: #f8f9fb;
+  --epg-primary: #3b82f6;
+  --epg-primary-light: #eff6ff;
+  --epg-secondary: #10b981;
+  --epg-danger: #ef4444;
+  --epg-text-primary: #1f2937;
+  --epg-text-secondary: #6b7280;
+  --epg-border: #d1d5db;
+  --epg-background: #f9fafb;
+  --primary: #4f46e5;
+  --secondary: #6b7280;
+  --accent: #10b981;
+  --neutral: #f3f4f6;
+  --base-100: #ffffff;
+  --info: #3b82f6;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --primary-color: #0a1c47;
+  --primary-color-light: #e6e8f0;
+  --secondary-color: #f8f9fb;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --accent-color: #374151;
+  --primary-color: #4a5568;
+  --primary-accent: #2d3748;
+  --secondary-color: #e2e8f0;
+  --background-color: #f7fafc;
+  --text-primary: #1a202c;
+  --text-secondary: #718096;
+  --border-color: #cbd5e0;
+  --primary-color: #0a1c47;
+  --secondary-color: #4f46e5;
+  --accent-color: #34d399;
+  --neutral-background: #f8f9fb;
+  --neutral-text: #0e121b;
+  --subtle-text: #6b7280;
+  --success-color: #10b981;
+  --danger-color: #ef4444;
+  --primary-color: #b5bbc9;
+  --primary-foreground: #131416;
+  --secondary: #ecedee;
+  --secondary-foreground: #131416;
+  --background: #f8f9fa;
+  --foreground: #131416;
+  --muted: #d9dadd;
+  --muted-foreground: #6c707a;
+  --success: #07883d;
+  --primary-color: #0a1c47;
+  --secondary-color: #e8ebf3;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --background-color: #f8f9fb;
+  --accent-admin: #cffafe;
+  --text-admin: #0891b2;
+  --accent-instructor: #ede9fe;
+  --text-instructor: #6d28d9;
+  --accent-student: #dcfce7;
+  --text-student: #16a34a;
+  --primary-color: #3b82f6;
+  --secondary-color: #b5bbc9;
+  --background-color: #f9fafb;
+  --text-primary-color: #1f2937;
+  --text-secondary-color: #6b7280;
+  --border-color: #e5e7eb;
+  --success-bg: #d1fae5;
+  --success-text: #065f46;
+  --pending-bg: #fef3c7;
+  --pending-text: #92400e;
+  --danger-bg: #fee2e2;
+  --danger-text: #991b1b;
+  --brand-primary: #0a1c47;
+  --brand-secondary: #e8ebf3;
+  --background-light: #f8f9fb;
+  --text-primary: #0e121b;
+  --text-secondary: #506595;
+  --white: #ffffff;
+  --brand-primary: #0a1c47;
+  --brand-secondary: #e8ebf3;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --background-primary: #ffffff;
+  --background-secondary: #f9fafb;
+  --accent-light: #f3f4f6;
+  --primary-color: #4a5568;
+  --secondary-color: #e2e8f0;
+  --accent-color: #38a169;
+  --background-color: #f7fafc;
+  --text-primary: #1a202c;
+  --text-secondary: #718096;
+  --brand-primary: #0a1c47;
+  --brand-secondary: #e8ebf3;
+  --text-primary: #0e121b;
+  --text-secondary: #506595;
+  --surface-main: #f8f9fb;
+  --surface-card: #ffffff;
+  --success-main: #22c55e;
+  --error-main: #ef4444;
 }
-
 
 /* Le @layer est une bonne pratique pour ajouter des classes personnalisées */
 body {
-    font-family: 'Work Sans', sans-serif;
-    background-color: var(--white);
-    color: var(--dark-blue);
+  font-family: "Work Sans", sans-serif;
+  background-color: var(--white);
+  color: var(--dark-blue);
+  background-color: var(--surface-secondary);
+  color: var(--text-primary);
+  background-color: var(--epg-background);
+  background-color: var(--background-color);
+  color: var(--text-primary);
+  background-color: var(--background-color);
+  color: var(--text-primary);
+}
+.epg-radio:checked {
+  background-color: var(--epg-primary);
+  border-color: var(--epg-primary);
+}
+.epg-radio:checked + div {
+  border-color: var(--epg-primary);
+  background-color: var(--epg-primary-light);
+}
+.epg-radio:focus {
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+.logo-icon path {
+  fill: var(--primary-color);
 }
 
 /* Définition des composants personnalisés via @layer */
 @layer components {
-    .btn-primary {
-        @apply bg-[var(--orange)] text-[var(--white)] hover:bg-orange-600 transition-colors duration-300;
-    }
-    .btn-secondary {
-        @apply bg-transparent border border-[var(--dark-blue)] text-[var(--dark-blue)] hover:bg-[var(--dark-blue)] hover:text-[var(--white)] transition-colors duration-300;
-    }
-    .nav-link {
-        @apply relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-[var(--orange)] after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:transition-all after:duration-300 hover:after:w-full;
-    }
-    .hobby-tag {
-        @apply cursor-pointer transition-colors duration-200;
-    }
-     .form-input {
-        @apply w-full rounded-md border-gray-300 shadow-sm focus:border-[var(--brand-orange)] focus:ring-[var(--brand-orange)];
-    }
+  .btn-primary {
+    @apply bg-[var(--orange)] text-[var(--white)] hover:bg-orange-600 transition-colors duration-300;
+  }
+  .btn-secondary {
+    @apply bg-transparent border border-[var(--dark-blue)] text-[var(--dark-blue)] hover:bg-[var(--dark-blue)] hover:text-[var(--white)] transition-colors duration-300;
+  }
+  .nav-link {
+    @apply relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-[var(--orange)] after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:transition-all after:duration-300 hover:after:w-full;
+  }
+  .hobby-tag {
+    @apply cursor-pointer transition-colors duration-200;
+  }
+  .form-input {
+    @apply w-full rounded-md border-gray-300 shadow-sm focus:border-[var(--brand-orange)] focus:ring-[var(--brand-orange)];
+  }
+  .icon-wrapper {
+    @apply flex items-center justify-center size-10 bg-[var(--brand-secondary)] rounded-full text-[var(--brand-primary)];
+  }
+  .card-hover-effect {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  .card-hover-effect:hover {
+    @apply transform -translate-y-1 shadow-2xl;
+  }
+  .progress-bar-inner {
+    width: 20%;
+  }
+  .stepper-item.active .stepper-circle {
+    @apply bg-[var(--primary-color)] text-white;
+  }
+  .stepper-item.active .stepper-label {
+    @apply text-[var(--primary-color)] font-semibold;
+  }
+  .stepper-item .stepper-circle {
+    @apply bg-[var(--secondary-color)] text-[var(--text-secondary)];
+  }
+  .stepper-item .stepper-label {
+    @apply text-[var(--text-secondary)];
+  }
+  .stepper-item:not(:last-child)::after {
+    content: "";
+    @apply block w-full h-0.5 bg-[var(--border-color)] absolute top-1/2 left-full -translate-y-1/2;
+  }
+  .stepper-item.active::after {
+    @apply bg-[var(--primary-color)];
+  }
+  .nav-link {
+    @apply text-sm font-medium text-gray-700 hover:text-[var(--primary-color)] transition-colors duration-300;
+  }
+  .badge-admin {
+    @apply bg-[var(--accent-admin)] text-[var(--text-admin)];
+  }
+  .badge-instructor {
+    @apply bg-[var(--accent-instructor)] text-[var(--text-instructor)];
+  }
+  .badge-student {
+    @apply bg-[var(--accent-student)] text-[var(--text-student)];
+  }
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  .btn-primary {
+    @apply text-white bg-[var(--primary-color)] hover:bg-blue-700 focus:ring-blue-500;
+  }
+  .btn-secondary {
+    @apply text-[var(--text-primary-color)] bg-white hover:bg-gray-50 focus:ring-indigo-500 border-[var(--border-color)];
+  }
+  .btn-danger {
+    @apply text-[var(--danger-text)] bg-[var(--danger-bg)] hover:bg-red-200 focus:ring-red-500;
+  }
+  .nav-link {
+    @apply flex items-center gap-4 px-4 py-3 text-base font-medium text-[var(--text-primary)] rounded-full transition-colors duration-300;
+  }
+  .nav-link:hover {
+    @apply bg-[var(--secondary-color)];
+  }
+  .nav-link.active {
+    @apply bg-[var(--primary-color)] text-white shadow-md;
+  }
+  .setting-card {
+    @apply flex items-center gap-5 p-4 rounded-xl hover:bg-gray-100 transition-all duration-200 cursor-pointer border border-transparent hover:border-gray-200;
+  }
 }
