@@ -50,7 +50,7 @@ const Sidebar = () => {
     return (
         <aside className="fixed flex flex-col w-64 h-screen bg-white shadow-lg">
             <div className="flex items-center justify-center h-20 border-b">
-                <h1 className="text-2xl font-bold text-[var(--primary-color)]">EPG École</h1>
+                <h1 className="text-2xl font-bold text-[var(--primary-color)]">EPG</h1>
             </div>
             <div className="flex flex-col flex-grow p-4 space-y-4">
                 <div className="flex items-center gap-4 p-3">

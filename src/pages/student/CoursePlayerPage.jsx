@@ -77,7 +77,7 @@ const CoursePlayerPage = () => {
           <div>
             <div className="mb-8">
               <h1 className="text-xl font-bold text-[var(--text-primary)]">Introduction à la programmation</h1>
-              <p className="text-sm text-[var(--text-secondary)]">EPG - École</p>
+              <p className="text-sm text-[var(--text-secondary)]">EPG</p>
             </div>
             <nav className="space-y-2">
               {navItems.map((item, index) => (

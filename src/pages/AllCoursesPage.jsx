@@ -126,7 +126,7 @@ const AllCoursesPage = () => {
                     ></path>
                   </svg>
                 </div>
-                <h1 className="text-neutral-900 text-xl font-bold tracking-tight">EPG - École</h1>
+                <h1 className="text-neutral-900 text-xl font-bold tracking-tight">EPG</h1>
               </div>
               <nav className="flex items-center gap-8">
                 <a className="text-neutral-700 hover:text-neutral-950 text-base font-medium transition-colors" href="#">Accueil</a>

@@ -24,7 +24,7 @@ const Header = () => (
               ></path>
             </svg>
           </div>
-          <h1 className="text-xl font-bold tracking-tight text-epg-text-primary">EPG École</h1>
+          <h1 className="text-xl font-bold tracking-tight text-epg-text-primary">EPG</h1>
         </div>
         <nav className="hidden md:flex items-center gap-8">
           <a className="text-sm font-medium text-epg-text-secondary hover:text-epg-primary transition-colors" href="#">Accueil</a>

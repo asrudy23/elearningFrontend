@@ -45,7 +45,7 @@ const Header = () => (
 const Footer = () => (
     <footer className="bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-[var(--text-secondary)] text-sm">
-            © 2024 EPG École. All Rights Reserved.
+            © 2024 EPG École Polytechniques des Genies. All Rights Reserved.
         </div>
     </footer>
 );
